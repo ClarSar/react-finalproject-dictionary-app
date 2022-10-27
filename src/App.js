@@ -7,10 +7,13 @@ function App() {
     <div className="App">
       <div className='container'>
       <header className="App-header">
-        <h1> <i className="fa-solid fa-book-open"></i> Dictionary</h1>
+          
+          
+        
+       <h1> <i className="fa-solid fa-book-open"></i> Dictionary</h1>
       </header>
       <main>
-        <Dictionary/>
+        <Dictionary defaultKeyword="pride"/>
       </main>
       <footer>
       This project was coded by {" "} 
